@@ -69,5 +69,5 @@ wget -qO /dev/null $PRIV_CONNECT_URL \
     --header "User-Agent: $UA" \
     --post-data "$D1&$D2&$D3&$D4&$D5&$D6"
 
-# remove 
+# remove cookies file
 rm $COOKIES
